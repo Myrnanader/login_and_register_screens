@@ -9,7 +9,7 @@ class LoginScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-       backgroundColor: const Color(0xFFF9A826),
+      backgroundColor: const Color(0xFFF9A826),
       body: Stack(
         children: [
           Column(
@@ -67,7 +67,6 @@ class LoginScreen extends StatelessWidget {
             ],
           ),
 
-          // 🎯 أيقونة الشخص على الخط الفاصل
           const Positioned(
             top: 190,
             left: 0,
