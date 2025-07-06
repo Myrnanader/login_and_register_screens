@@ -66,6 +66,7 @@ class LoginScreen extends StatelessWidget {
               ),
             ],
           ),
+          //  CircleAvatar for profile icon
           const Positioned(
             top: 190,
             left: 0,
